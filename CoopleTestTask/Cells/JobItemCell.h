@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JobItemCell.h
 //  CoopleTestTask
 //
 //  Created by apple on 1/31/18.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class JobModel;
 
-
+@interface JobItemCell : UITableViewCell
+- (void)configureWithData:(JobModel*)model;
 @end
-

@@ -8,24 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		181F600D2022294B000B7DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F600C2022294B000B7DB2 /* AppDelegate.m */; };
-		181F60102022294B000B7DB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F600F2022294B000B7DB2 /* ViewController.m */; };
 		181F60132022294B000B7DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F60112022294B000B7DB2 /* Main.storyboard */; };
 		181F60152022294B000B7DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F60142022294B000B7DB2 /* Assets.xcassets */; };
 		181F60182022294B000B7DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F60162022294B000B7DB2 /* LaunchScreen.storyboard */; };
 		181F601B2022294B000B7DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F601A2022294B000B7DB2 /* main.m */; };
+		181F602420222D6B000B7DB2 /* JobModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F602320222D6B000B7DB2 /* JobModel.m */; };
+		181F6027202230C2000B7DB2 /* DataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F6026202230C2000B7DB2 /* DataLoader.m */; };
+		181F602A20223F24000B7DB2 /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F602920223F24000B7DB2 /* JobsViewController.m */; };
+		181F602E20223F7F000B7DB2 /* JobItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F602C20223F7F000B7DB2 /* JobItemCell.m */; };
+		181F602F20223F7F000B7DB2 /* JobItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181F602D20223F7F000B7DB2 /* JobItemCell.xib */; };
+		181F60332024D811000B7DB2 /* JobsInfoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F60322024D811000B7DB2 /* JobsInfoDataSource.m */; };
+		181F60362024F0B8000B7DB2 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F60352024F0B8000B7DB2 /* DataParser.m */; };
+		F0346DE87D19D442DF13E32B /* libPods-CoopleTestTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A6F19CBF79EFE4F6CBFAB0 /* libPods-CoopleTestTask.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		181F60082022294B000B7DB2 /* CoopleTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoopleTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181F600B2022294B000B7DB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		181F600C2022294B000B7DB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		181F600E2022294B000B7DB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		181F600F2022294B000B7DB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		181F60122022294B000B7DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181F60142022294B000B7DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181F60172022294B000B7DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181F60192022294B000B7DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181F601A2022294B000B7DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181F602220222D6B000B7DB2 /* JobModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobModel.h; sourceTree = "<group>"; };
+		181F602320222D6B000B7DB2 /* JobModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobModel.m; sourceTree = "<group>"; };
+		181F6025202230C2000B7DB2 /* DataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLoader.h; sourceTree = "<group>"; };
+		181F6026202230C2000B7DB2 /* DataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataLoader.m; sourceTree = "<group>"; };
+		181F602820223F24000B7DB2 /* JobsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsViewController.h; sourceTree = "<group>"; };
+		181F602920223F24000B7DB2 /* JobsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsViewController.m; sourceTree = "<group>"; };
+		181F602B20223F7F000B7DB2 /* JobItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobItemCell.h; sourceTree = "<group>"; };
+		181F602C20223F7F000B7DB2 /* JobItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobItemCell.m; sourceTree = "<group>"; };
+		181F602D20223F7F000B7DB2 /* JobItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobItemCell.xib; sourceTree = "<group>"; };
+		181F60312024D811000B7DB2 /* JobsInfoDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsInfoDataSource.h; sourceTree = "<group>"; };
+		181F60322024D811000B7DB2 /* JobsInfoDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsInfoDataSource.m; sourceTree = "<group>"; };
+		181F60342024F0B8000B7DB2 /* DataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		181F60352024F0B8000B7DB2 /* DataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		19B7A47EE3A882C9C4D1588E /* Pods-CoopleTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoopleTestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoopleTestTask/Pods-CoopleTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		7C90EB4C33464D70C0715790 /* Pods-CoopleTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoopleTestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoopleTestTask/Pods-CoopleTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		91A6F19CBF79EFE4F6CBFAB0 /* libPods-CoopleTestTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoopleTestTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0346DE87D19D442DF13E32B /* libPods-CoopleTestTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +66,8 @@
 			children = (
 				181F600A2022294B000B7DB2 /* CoopleTestTask */,
 				181F60092022294B000B7DB2 /* Products */,
+				964872A61E5DC853B6E7A115 /* Pods */,
+				E476A315C40D25FE34F05388 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +84,15 @@
 			children = (
 				181F600B2022294B000B7DB2 /* AppDelegate.h */,
 				181F600C2022294B000B7DB2 /* AppDelegate.m */,
-				181F600E2022294B000B7DB2 /* ViewController.h */,
-				181F600F2022294B000B7DB2 /* ViewController.m */,
+				181F60372025C811000B7DB2 /* Controllers */,
+				181F60312024D811000B7DB2 /* JobsInfoDataSource.h */,
+				181F60322024D811000B7DB2 /* JobsInfoDataSource.m */,
+				181F6025202230C2000B7DB2 /* DataLoader.h */,
+				181F6026202230C2000B7DB2 /* DataLoader.m */,
+				181F60342024F0B8000B7DB2 /* DataParser.h */,
+				181F60352024F0B8000B7DB2 /* DataParser.m */,
+				181F602120222D53000B7DB2 /* Models */,
+				181F603020223F96000B7DB2 /* Cells */,
 				181F60112022294B000B7DB2 /* Main.storyboard */,
 				181F60142022294B000B7DB2 /* Assets.xcassets */,
 				181F60162022294B000B7DB2 /* LaunchScreen.storyboard */,
@@ -71,6 +102,51 @@
 			path = CoopleTestTask;
 			sourceTree = "<group>";
 		};
+		181F602120222D53000B7DB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				181F602220222D6B000B7DB2 /* JobModel.h */,
+				181F602320222D6B000B7DB2 /* JobModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		181F603020223F96000B7DB2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				181F602B20223F7F000B7DB2 /* JobItemCell.h */,
+				181F602C20223F7F000B7DB2 /* JobItemCell.m */,
+				181F602D20223F7F000B7DB2 /* JobItemCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		181F60372025C811000B7DB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181F602820223F24000B7DB2 /* JobsViewController.h */,
+				181F602920223F24000B7DB2 /* JobsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		964872A61E5DC853B6E7A115 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B7A47EE3A882C9C4D1588E /* Pods-CoopleTestTask.debug.xcconfig */,
+				7C90EB4C33464D70C0715790 /* Pods-CoopleTestTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E476A315C40D25FE34F05388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A6F19CBF79EFE4F6CBFAB0 /* libPods-CoopleTestTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181F601E2022294B000B7DB2 /* Build configuration list for PBXNativeTarget "CoopleTestTask" */;
 			buildPhases = (
+				6AC4C63AB7B80B981B12FBBC /* [CP] Check Pods Manifest.lock */,
 				181F60042022294B000B7DB2 /* Sources */,
 				181F60052022294B000B7DB2 /* Frameworks */,
 				181F60062022294B000B7DB2 /* Resources */,
+				F98F1B4A4C7FD03B7F696D68 /* [CP] Embed Pods Frameworks */,
+				06335C3671661015A48CE813 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,20 +210,74 @@
 			files = (
 				181F60182022294B000B7DB2 /* LaunchScreen.storyboard in Resources */,
 				181F60152022294B000B7DB2 /* Assets.xcassets in Resources */,
+				181F602F20223F7F000B7DB2 /* JobItemCell.xib in Resources */,
 				181F60132022294B000B7DB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06335C3671661015A48CE813 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoopleTestTask/Pods-CoopleTestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC4C63AB7B80B981B12FBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F98F1B4A4C7FD03B7F696D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoopleTestTask/Pods-CoopleTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181F60042022294B000B7DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181F60102022294B000B7DB2 /* ViewController.m in Sources */,
+				181F602420222D6B000B7DB2 /* JobModel.m in Sources */,
 				181F601B2022294B000B7DB2 /* main.m in Sources */,
 				181F600D2022294B000B7DB2 /* AppDelegate.m in Sources */,
+				181F602A20223F24000B7DB2 /* JobsViewController.m in Sources */,
+				181F602E20223F7F000B7DB2 /* JobItemCell.m in Sources */,
+				181F60332024D811000B7DB2 /* JobsInfoDataSource.m in Sources */,
+				181F60362024F0B8000B7DB2 /* DataParser.m in Sources */,
+				181F6027202230C2000B7DB2 /* DataLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +409,7 @@
 		};
 		181F601F2022294B000B7DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B7A47EE3A882C9C4D1588E /* Pods-CoopleTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +423,7 @@
 		};
 		181F60202022294B000B7DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C90EB4C33464D70C0715790 /* Pods-CoopleTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
